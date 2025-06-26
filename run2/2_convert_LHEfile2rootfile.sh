@@ -4,9 +4,9 @@ default=HZaTo2l2g
 BASE_DIR="/afs/cern.ch/work/p/pelai/HZa/gridpacks/check_LHE/run2"
 eos_DIR="/eos/home-p/pelai/HZa/ALP/gridpacks/check_LHE/run2/rootfile"
 
-# Handle 0.1 to 0.9,  1 to 30
-# for m in $(seq 0.1 0.1 0.9)
-for m in {0.3,0.4}
+# Handle 0.1 to 0.9,
+for m in $(seq 0.1 0.1 0.9)
+# for m in {0.3,0.4}
 do
     # # 跳過特定 m 值
     # if [[ "$m" == "0.3" || "$m" == "0.4" ]]; then

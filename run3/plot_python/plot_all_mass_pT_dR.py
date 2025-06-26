@@ -280,7 +280,7 @@ def plot_mass_and_pt_distributions(file_list, ma_range, mass_output_filename, pt
             axes_mass[4].hist(muon_mass, bins=100, range=(90, 120), histtype='step', density=True, color=colors[i], linewidth=2.0)
             handles_mass4.append(Line2D([0], [0], color=colors[i], linewidth=2.0, label=filename.replace("ALP_", "").replace(".root", "")))
     # axes_mass[4].set_title("Muon Mass Distribution", fontsize=18)
-    axes_mass[4].set_xlabel(r"$\mu Mass (MeV)$", fontsize=24)
+    axes_mass[4].set_xlabel(r"$\mu \ Mass (MeV)$", fontsize=24)
     axes_mass[4].set_ylabel("A.U.", fontsize=24)
     axes_mass[4].legend(handles=handles_mass4, fontsize=14, handlelength=2, ncol=2)
 
@@ -291,7 +291,7 @@ def plot_mass_and_pt_distributions(file_list, ma_range, mass_output_filename, pt
             axes_mass[5].hist(tau_mass, bins=100, range=(1.7, 1.9), histtype='step', density=True, color=colors[i], linewidth=2.0)
             handles_mass5.append(Line2D([0], [0], color=colors[i], linewidth=2.0, label=filename.replace("ALP_", "").replace(".root", "")))
     # axes_mass[5].set_title("Tau Mass Distribution", fontsize=24)
-    axes_mass[5].set_xlabel(r"$\tau Mass (GeV)$", fontsize=24)
+    axes_mass[5].set_xlabel(r"$\tau \ Mass (GeV)$", fontsize=24)
     axes_mass[5].set_ylabel("A.U.", fontsize=18)
     axes_mass[5].legend(handles=handles_mass5, fontsize=14, handlelength=2, ncol=2)
 
@@ -302,7 +302,7 @@ def plot_mass_and_pt_distributions(file_list, ma_range, mass_output_filename, pt
             axes_mass[6].hist(gamma_mass, bins=100, range=(0, 1), histtype='step', density=True, color=colors[i], linewidth=2.0)
             handles_mass6.append(Line2D([0], [0], color=colors[i], linewidth=2.0, label=filename.replace("ALP_", "").replace(".root", "")))
     # axes_mass[6].set_title("Gamma Mass Distribution", fontsize=18)
-    axes_mass[6].set_xlabel(r"$\gamma Mass (GeV)$", fontsize=24)
+    axes_mass[6].set_xlabel(r"$\gamma \ Mass (GeV)$", fontsize=24)
     axes_mass[6].set_ylabel("A.U.", fontsize=24)
     axes_mass[6].legend(handles=handles_mass6, fontsize=14, handlelength=2, ncol=2)
 

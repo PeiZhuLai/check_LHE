@@ -3,10 +3,10 @@
 default=HZaTo2l2g
 BASE_DIR="/afs/cern.ch/work/p/pelai/HZa/gridpacks/check_LHE/run3"
 # Handle 0.1 to 0.9,  1 to 30
-# for m in $(seq 0.1 0.1 0.9) {1..10} {15,20,25,30}
+for m in $(seq 0.1 0.1 0.9) {1..10} {15,20,25,30}
 # for m in $(seq 0.1 0.1 0.9)
 # for m in {0.1,0.2,0.3,0.4}
-for m in 0.4
+# for m in 0.4
 do
     # format m file name (Replace . with p)
     m_formatted=$(echo "$m" | tr '.' 'p')
